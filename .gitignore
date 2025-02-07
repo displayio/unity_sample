@@ -37,7 +37,7 @@
 
 # Игнорируем файлы сборки iOS/Android
 [Dd]io_Test_iOS/
-*.apk
+
 *.ipa
 
 # Игнорируем Unity Cloud Build метаданные
