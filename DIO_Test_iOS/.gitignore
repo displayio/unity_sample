@@ -1,0 +1,75 @@
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# iOS Xcode project build files
+DIO_Test_iOS/build/
+DIO_Test_iOS/Libraries/libiPhone-lib.a
+
+build/
+DerivedData/
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata/
+
+# Xcode project workspace
+xcshareddata/
+*.xcworkspace/
+
+# Xcode configuration & scheme files
+xcuserdata/
+profile
+*.xcuserstate
+
+# CocoaPods dependencies
+Pods/
+Podfile.lock
+
+# Carthage dependencies
+Carthage/Checkouts
+Carthage/Build
+
+# Swift Package Manager
+.build/
+.swiftpm/
+
+# Archives
+*.xcarchive
+
+# Fastlane metadata & logs
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
+fastlane/README.md
+
+# Provisioning profiles
+*.mobileprovision
+
+# Symbolication & debugging
+*.dSYM.zip
+*.dSYM
+
+# Static libraries (важно, так как у вас проблема с `libiPhone-lib.a`)
+*.a
+*.so
+*.swp
+*.swo
+*.swm
+
+# Custom user settings
+*.xccheckout
+*.moved-aside
+*.user
+
+# Ignore environment & dependency managers
+.env
+.vscode/
+.idea/

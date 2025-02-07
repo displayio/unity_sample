@@ -35,8 +35,6 @@
 /[Aa]ssets/[Aa]ddressable[Aa]ssets[Dd]ata/*/*.hash
 /[Aa]ssets/[Aa]ddressable[Aa]ssets[Dd]ata/*/*.bundle
 
-# Игнорируем файлы сборки iOS/Android
-[Dd]io_Test_iOS/
 
 *.ipa
 
