@@ -1,0 +1,31 @@
+PODS:
+  - AppLovin-DIO-Adapter (4.3.2):
+    - AppLovin-DIO-Adapter/AppLovin (= 4.3.2)
+    - AppLovin-DIO-Adapter/Network (= 4.3.2)
+  - AppLovin-DIO-Adapter/AppLovin (4.3.2):
+    - AppLovinSDK
+  - AppLovin-DIO-Adapter/Network (4.3.2):
+    - AppLovinSDK
+    - DIOSDK
+  - AppLovinSDK (13.1.0)
+  - DIOSDK (4.3.2)
+
+DEPENDENCIES:
+  - AppLovin-DIO-Adapter (= 4.3.2)
+  - AppLovinSDK (= 13.1.0)
+  - DIOSDK (= 4.3.2)
+
+SPEC REPOS:
+  trunk:
+    - AppLovin-DIO-Adapter
+    - AppLovinSDK
+    - DIOSDK
+
+SPEC CHECKSUMS:
+  AppLovin-DIO-Adapter: e242e1d3fcca64a5989986fc0babf906cebd1382
+  AppLovinSDK: 539a0178d8bef4d68b2551a93526e0c1bba06cb2
+  DIOSDK: 19e2f1e8411d25f7822dde90eb606fa91f6af27f
+
+PODFILE CHECKSUM: 8d4e8bd31a6b264ea134e38e500d36543250fa4f
+
+COCOAPODS: 1.16.2

@@ -4,8 +4,8 @@ apply from: '../shared/keepUnitySymbols.gradle'
 
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
-    implementation 'com.brandio.ads:sdk:5.4.1' // <-- Added Display.io 
-    implementation 'com.applovin.mediation.adapters:applovin-adapter:5.4.1' // <-- Added AppLovin adapter
+    implementation 'com.brandio.ads:sdk:5.4.2' // <-- Added Display.io 
+    implementation 'com.applovin.mediation.adapters:applovin-adapter:5.4.2' // <-- Added AppLovin adapter
 // Android Resolver Dependencies Start
     implementation 'com.applovin:applovin-sdk:13.1.0' // Packages/com.applovin.mediation.ads/AppLovin/Editor/Dependencies.xml:4
 // Android Resolver Dependencies End

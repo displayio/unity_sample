@@ -1,0 +1,6 @@
+framework module AppLovin_DIO_Adapter {
+  umbrella header "AppLovin-DIO-Adapter-umbrella.h"
+
+  export *
+  module * { export * }
+}

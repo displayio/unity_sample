@@ -17,10 +17,10 @@ public class ModifyPodfile
                 string podfileContents = File.ReadAllText(podfilePath);
 
                 string targetString = "target 'Unity-iPhone' do";
-                string podLines = "\n  pod 'DIOSDK', '4.3.1'\n  pod 'AppLovin-DIO-Adapter', '4.3.1'";
+                string podLines = "\n  pod 'DIOSDK', '4.3.2'\n  pod 'AppLovin-DIO-Adapter', '4.3.2'";
 
                 // Ensure DIOSDK and AppLovin-DIO-Adapter are inside the Unity-iPhone target block
-                if (!podfileContents.Contains("pod 'DIOSDK', '4.3.1'") || !podfileContents.Contains("pod 'AppLovin-DIO-Adapter', '4.3.1'"))
+                if (!podfileContents.Contains("pod 'DIOSDK', '4.3.2'") || !podfileContents.Contains("pod 'AppLovin-DIO-Adapter', '4.3.2'"))
                 {
                     int index = podfileContents.IndexOf(targetString);
                     if (index != -1)
