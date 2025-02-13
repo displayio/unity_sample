@@ -24,9 +24,7 @@
 *.opendb
 *.VC.db
 
-# Игнорируем пакеты Unity
 [Pp]ackages/
-# Исключение для Manifest (чтобы пакеты можно было восстановить)
 !Packages/manifest.json
 !Packages/packages-lock.json
 
@@ -37,6 +35,6 @@
 
 
 *.ipa
+libiPhone-lib.a
 
-# Игнорируем Unity Cloud Build метаданные
 /[Bb]uilds/[Cc]loud/
